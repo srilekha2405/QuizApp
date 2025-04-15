@@ -45,7 +45,7 @@ const Quiz = () => {
       }
     }
     const reset=()=>{
-      setIndex(0);
+      setIndex(0); 
       setQuestion(data[0]);
       setScore(0);
       setLock(false);
